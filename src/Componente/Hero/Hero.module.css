@@ -1,0 +1,75 @@
+.hero_text_container {
+  position: relative;
+  background-image: url(../../assets/Images/hero_img.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero_text_box {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 325px;
+  background: rgba(144, 216, 194, 0.788);
+  text-align: left;
+  padding: 25px;
+}
+
+.hero_text_box small {
+  font-size: 12px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+}
+.hero_text_box h1 {
+  color: rgb(185, 142, 47);
+}
+
+.hero_text_box p {
+  font-size: 12px;
+  color: rgb(65, 64, 64);
+}
+.hero_text_box button {
+  width: 100px;
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background: rgb(185, 142, 47);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+  .hero_text_container {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero_text_box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 325px;
+    padding: 15px;
+   
+  
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero_text_box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 325px;
+    padding: 15px;
+    background: none;
+  }
+}
