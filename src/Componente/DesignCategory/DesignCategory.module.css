@@ -49,3 +49,14 @@
 .design_img h4:hover{
     color: rgb(218, 165, 32);
 }
+
+@media screen and (max-width:576px) {
+  
+  .design_categorys_container {
+    padding: 60px 15px;
+  }
+  
+  .design_category_title p {
+    max-width: 100%;
+  }
+}
