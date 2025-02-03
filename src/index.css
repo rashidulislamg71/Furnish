@@ -1,3 +1,9 @@
+/* google font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* google font Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 *{
   padding: 0;
@@ -8,16 +14,13 @@
 }
 
 body{
-  font-family: sans-serif;
-  
+  font-family: "Inter", serif;
   max-width: 1400px;
   width: 100%;
   
 }
 
-.flex{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 20px;
+h2{
+  font-family: "Roboto", serif;
+  color: rgba(0, 0, 0, 0.808);
 }
